@@ -1,0 +1,16 @@
+<footer class="app-footer">
+  <div class="container">
+    <div class="footer-wrapper">
+      <h4 class="copyright">© Jason Perrin 2014</h4>
+      <nav class="footer-nav">
+        <ul>
+          {% for page in site.pages %}
+            {% if page.title %}
+              <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </div>
+</footer>

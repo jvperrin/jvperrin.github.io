@@ -1,0 +1,24 @@
+<header class="app-header" id="app-header">
+  <div class="container">
+    <div class="header-wrapper">
+      <!-- Logo -->
+      <div class="logo">
+        <a href="/"><h1>{{ site.title }}</h1></a>
+        <!-- <img src="assets/images/logo.png" alt="One Nexus" /> -->
+      </div>
+
+      <!-- Main-Nav -->
+      <nav class="main-nav">
+        <ul>
+          {% for page in site.pages %}
+            {% if page.title %}
+              <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </nav>
+      <!-- Mobile Menu Trigger Button -->
+      <a class="nav-trigger max-bp3" href="#"></a>
+    </div>
+  </div>
+</header>
