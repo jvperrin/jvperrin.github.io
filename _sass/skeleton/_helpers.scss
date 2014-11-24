@@ -42,12 +42,12 @@ Clearfix
 
 .clearfix, .cf {
     zoom: 1;
-    &:before, &:after { 
-        content: ""; 
-        display: table; 
+    &:before, &:after {
+        content: "";
+        display: table;
     }
-    &:after { 
-        clear: both; 
+    &:after {
+        clear: both;
     }
 }
 
@@ -71,9 +71,11 @@ Vertically Align Anything
 
 //http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/
 
-.vam {    
+.vam {
     position: relative;
     top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 
@@ -107,21 +109,21 @@ hr.dotted {
 Horizontal Aligning
 ******************************************************************/
 
-.text-left { 
-    text-align: left !important; 
+.text-left {
+    text-align: left !important;
 }
-.text-center { 
-    text-align: center !important; 
+.text-center {
+    text-align: center !important;
 }
-.text-right { 
-    text-align: right !important; 
+.text-right {
+    text-align: right !important;
 }
 
-.left  { 
-    float: left !important; 
+.left  {
+    float: left !important;
 }
-.right { 
-    float: right !important; 
+.right {
+    float: right !important;
 }
 
 /******************************************************************

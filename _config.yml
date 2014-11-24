@@ -12,3 +12,6 @@ github_username:  jvperrin
 
 # Build settings
 markdown: kramdown
+
+sass:
+  style: compressed

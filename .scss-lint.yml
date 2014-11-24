@@ -1,0 +1,9 @@
+linters:
+  PropertySortOrder:
+    enabled: false
+  Comment:
+    enabled: false
+  Indentation:
+    enabled: false
+  SingleLinePerSelector:
+    enabled: true
