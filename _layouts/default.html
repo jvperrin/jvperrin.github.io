@@ -15,16 +15,12 @@
           {% if page.title %}
             <ul>
               <li><a href="/">{{ site.title }}</a></li>
-              <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+              <li><a href="{{ page.url }}">{{ page.title }}</a></li>
             </ul>
           {% endif %}
         </nav>
 
-        <div class="row">
-          <div class="span-12">
-            {{ content }}
-          </div>
-        </div>
+        {{ content }}
 
         <hr class="line" />
       </div>
@@ -40,21 +36,5 @@
 
     <!-- Site Overlay -->
     <div class="site-overlay"></div>
-
-    <!-- Scripts -->
-
-    <!-- jQuery -->
-    <script src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
-
-    <!-- Interactive Elements/Modules -->
-    <script src="{{ "/js/accordion.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/carousel.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/modal.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/off-canvas-nav.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/tabs.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/tooltip.js" | prepend: site.baseurl }}"></script>
-
-    <!-- General -->
-    <script src="{{ "/js/global.js" | prepend: site.baseurl }}"></script>
   </body>
 </html>
