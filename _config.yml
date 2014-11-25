@@ -8,6 +8,13 @@ url: "https://jvp.io" # the base hostname & protocol for your site
 twitter_username: jvperrin
 github_username:  jvperrin
 
+defaults:
+  -
+    scope:
+      path: "" # All pages
+    values:
+      categories: "blog"
+
 # Build settings
 markdown: kramdown
 
