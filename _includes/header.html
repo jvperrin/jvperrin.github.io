@@ -1,14 +1,13 @@
 <header class="app-header" id="app-header">
   <div class="container">
     <div class="header-wrapper">
-      <!-- Logo -->
       <div class="logo">
         <h1><a href="/">{{ site.title }}</a></h1>
       </div>
 
-      <!-- Main-Nav -->
       <nav class="main-nav">
         <ul>
+          <li><a href="/">About</a></li>
           {% for page in site.pages %}
             {% if page.title %}
               <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
