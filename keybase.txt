@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/jvperrin
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jvp.io
+  * I am jvperrin (https://keybase.io/jvperrin) on keybase.
+  * I have a public key with fingerprint 9E29 E330 1DEA 8343 A5AA  57B2 4556 CDB7 5021 CA3E
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01010ac109547c62be3022bc6bbb2fe16620507e382a8d2a969fd5b48a752f35aa3f0a",
+      "fingerprint": "9e29e3301dea8343a5aa57b24556cdb75021ca3e",
+      "host": "keybase.io",
+      "key_id": "4556cdb75021ca3e",
+      "kid": "01010ac109547c62be3022bc6bbb2fe16620507e382a8d2a969fd5b48a752f35aa3f0a",
+      "uid": "56715c3014eea1ff538be350935a7819",
+      "username": "jvperrin"
+    },
+    "service": {
+      "hostname": "jvp.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1510398251,
+  "expire_in": 157680000,
+  "prev": "78fcc0c0b7ae99a7be5b83a213f652c767ee8900640e5ff1f2fc1b715b3855be",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtkltIVEEYx3dXS11Kk8CuS3moaEFizpydcwsKC7tnZqYW0TZzds56aju7nnNc
+3cKH6KU00iXoKl0eLLoQEWERUVRshd0hzFCQkKBEukFEL9ocK3rpsZmHYT5+///8
+v49pn5jlyfWWVT+9XlHcvcj7+APxbB7/ZsFujsQjKU7dze2gYweNRajthHcYEU7l
+AM821nigoJCkiZBQAUBINJEQAnXKiyIECEhUkCGWIxAroqJHEAnJWEJQFxDGgg4w
+V8LphhmlVsIyTIfZKhQqVBAAH6FYFkICZiCSCAwhJGoRIiEAeQ0LlAnr4rarYOEI
+tukCI85q7BIei/cP/j/nbhizQ6LEI43lDVGKeV1HgswcEVAYKcm84oI2tUy8kzJ6
+ezJBLdYp11zCsWrS0Kg7WLeTv8SvThJW3Ilr8Rir1TlOwlZdjZNKuFAjJeHf8jAx
+zAibIFMkqWUbcZNTeUZqjuH68YgHgiJDxJdwtClhWDRsuASSRBmw5b5Dk8xSknVN
+AxogEqZKpYIlQhGRBQx5QRcR1CRRolRWABBDgCJd53WoazxhzRNBRoi4A7ZpvRnn
+VJnlxFHmaRtREzsNFuWa/fu9QrbHm+sJFBVnnwwOgsDQ3qWdF2qu/vl143zul/P4
+8yb9qdRGc0bXn/rxIjN67uHIvqNd76qP4f7uY5cyMdWceH/oe335oS0bF2/JcPN7
+Ug+dyo7OVRV7Whbf33fPt7Mhf+b+vv5dq4NbS6akJ73atqTz+QOn6njqbNb0rta+
+SyM3Bl9FDxU9Ldy2ST1TWhg7P/XZphxtIZh1Z3hFcsJ236CEN4y7Mn9lY9Wjiqhq
+3qvRgy1f5rW+7Sy+WHzYmjvgb/Tl3n7/OWBm28vbhL62r0fWTpnhWzfkT9cMOx8/
+vdbu5idvLhtY01Pg+wjTvbCp3Sv21uUN9wyX3yoTv4mTM6NPUt14yUiYlpbVN5+Y
+dqA9cLmgI/j96Jxz0Wsv02tOVyZmp2sPbtj6Ew==
+=D2e0
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jvperrin
+
+==================================================================
+
