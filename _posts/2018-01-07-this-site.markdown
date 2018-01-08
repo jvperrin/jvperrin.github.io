@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "This site and how it works"
+date:   2018-01-07 22:27:55
+---
+
+A bit about how this site works, since that seems like an appropriate first
+post. This site has been around since 2014, when I acquired the domain, but I
+haven't done anything with it besides having a basic website here until making
+this post in 2018. Seems like a long time to not have an actual site, but I
+wanted to keep the domain (it's so short!), and it's useful to have a domain
+for adding custom DNS things when needed. This site's content is all open
+source and viewable on GitHub at
+[jvperrin/jvperrin.github.io](https://github.com/jvperrin/jvperrin.github.io).
+
+Anyway, onto the site's actual workings. It uses [GitHub
+Pages](https://pages.github.com/) with [Jekyll](https://jekyllrb.com/), like
+many other sites out there. This works amazingly for mostly static content,
+like this site. This site uses [Cloudflare](https://www.cloudflare.com/) for
+SSL to help keep your browsing secure (and fast!), and even redirects from HTTP
+to HTTPS using Cloudflare's Page Rules to enforce redirecting
+`http://*jvp.io/*` to use HTTPS even if someone visits the site via HTTP at
+first.
+
+Unfortunately, since this site uses GitHub Pages with a custom domain, it
+[lacks IPv6 support](https://github.com/isaacs/github/issues/354), but I'd love
+to add it when it becomes available for custom domains.
+
+Another drawback of using GitHub pages is that it doesn't have SSL for custom
+domains, so the connection between you and my website here is not fully
+encrypted. Only the first connection between you and Cloudflare is encrypted,
+the connection between Cloudflare's SSL terminators and GitHub is unencrypted,
+but this site is entirely static anyway, so I don't think that really matters
+that much. Still, I'd definitely prefer it if everything was SSL, so I'll keep
+an eye out for [any updates](https://github.com/isaacs/github/issues/156) on
+the situation.
+
+As for the site's front-end workings, it uses
+[One-Nexus](https://github.com/esr360/One-Nexus), which I think is an
+underappreciated project to create nice looking interfaces, both on your
+computer and phone. It's also quite easy to set up for static websites and uses
+[Sass](http://sass-lang.com/), so that's a bit nicer when developing with it.
+
+[Let me know](/contact) if you have any questions!
